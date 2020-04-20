@@ -1,0 +1,22 @@
+$main-font: "segoe UI",
+sans-serif;
+
+@import "utils";
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-size: 10px;
+
+}
+
+body,
+html {
+  overflow-x: hidden;
+}
+
+@import "head";

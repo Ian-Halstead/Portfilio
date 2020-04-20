@@ -1,0 +1,19 @@
+@import "breakpoints";
+
+@mixin center {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+@keyframes slide-from-left {
+  0% {
+    transform: translateX(-100vw);
+
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
