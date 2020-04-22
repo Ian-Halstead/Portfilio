@@ -40,3 +40,30 @@ html {
 
   }
 }
+
+
+.win-screen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 53, 9, 0.9);
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 5rem;
+  flex-direction: column;
+  color: white;
+
+  .txt {
+    margin-top: 5rem;
+  }
+
+  .btn {
+    margin: 5rem;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, .4);
+    cursor: pointer
+  }
+}
